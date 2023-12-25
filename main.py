@@ -3,8 +3,8 @@ from aiogram.types import Message, CallbackQuery, LabeledPrice
 from database import *
 from keyboards import *
 
-TOKEN = '6581717055:AAFQDRXnEXkjm5410SCnIJwDz3DamubmRVc'
-PAYMENT = '398062629:TEST:999999999_F91D8F69C042267444B74CC0B3C747757EB0E065'
+TOKEN = '' #copy and past your telegram token
+PAYMENT = '' #copy and past your payment token
 bot = Bot(TOKEN)
 
 dp = Dispatcher(bot)
